@@ -13,7 +13,8 @@
 
       Структура микрокоманды выглядит следующим образом: код перехода (условный/безусловный); управляющие сигналы для РАЛУ; адрес загрузки результата АЛУ в регистр; сигнал для входных данных, определяющий откуда загружается операнд ([РАЛУ/Внешнее устройство](https://github.com/l1sok/ALU_BOARD/blob/main/%5BLABS%5D/RA.v)) 
 
-      ![image](https://github.com/MPSU/APS/blob/master/.pic/Labs/lab_04_cybercobra/ppd_5.drawio.svg)
+    ![](https://github.com/user-attachments/assets/64433033-50ef-4a5b-9896-b439d4eed8ca)
+
 
 
  * Заключительным этапом стала отладка разработанного устройства на учебном стенде Terasic DE1 (на базе на базе Altera Cyclone II EP2C20F484C7N). Для этого были интегрированы модули взаимодействия с утройствами [ввода](https://github.com/l1sok/ALU_BOARD/blob/main/%5BLABS%5D/InputModule.v) и [вывода](https://github.com/l1sok/ALU_BOARD/blob/main/%5BLABS%5D/OutputModule.v). В ходе отладки были разработаны и протестированы различные [сценарии работы](https://github.com/l1sok/ALU_BOARD/blob/main/%5BLABS%5D/mem.txt), проверены корректность выполнения команд и возможные ошибки. 
