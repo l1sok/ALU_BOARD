@@ -13,7 +13,7 @@
 
       Структура микрокоманды выглядит следующим образом: код перехода (условный/безусловный); управляющие сигналы для РАЛУ; адрес загрузки результата АЛУ в регистр; сигнал для входных данных, определяющий откуда загружается операнд ([РАЛУ/Внешнее устройство](https://github.com/l1sok/ALU_BOARD/blob/main/%5BLABS%5D/RA.v)) 
 
-      ![image](https://github.com/user-attachments/assets/618e47e4-9e4a-4ace-ac82-c26b87a094a3)
+      ![image](https://github.com/MPSU/APS/blob/master/.pic/Labs/lab_04_cybercobra/ppd_5.drawio.svg)
 
 
  * Заключительным этапом стала отладка разработанного устройства на учебном стенде Terasic DE1 (на базе на базе Altera Cyclone II EP2C20F484C7N). Для этого были интегрированы модули взаимодействия с утройствами [ввода](https://github.com/l1sok/ALU_BOARD/blob/main/%5BLABS%5D/InputModule.v) и [вывода](https://github.com/l1sok/ALU_BOARD/blob/main/%5BLABS%5D/OutputModule.v). В ходе отладки были разработаны и протестированы различные [сценарии работы](https://github.com/l1sok/ALU_BOARD/blob/main/%5BLABS%5D/mem.txt), проверены корректность выполнения команд и возможные ошибки. 
@@ -26,22 +26,13 @@
 При разработке эскиза макета АЛУ был разделён на три уровня: уровень [вентилей](https://github.com/l1sok/ALU_BOARD/tree/main/%5BGATE%5D); уровень [сумматоров](https://github.com/l1sok/ALU_BOARD/tree/main/%5BSM%5D) – связующий для вентилей; уровень [АЛУ](https://github.com/l1sok/ALU_BOARD/tree/main/%5BALU%5D) –  общий связующий уровень для сумматоров.
 
 
-![image](https://github.com/user-attachments/assets/45dee33b-c5d4-4388-b8e4-8af986a2aaf7)
+![image](https://github.com/l1sok/ALU_BOARD/tree/main/%5BGATE%5D/GATE)
+
+![image](https://github.com/l1sok/ALU_BOARD/tree/main/%5BGATE%5D/GATE_1)
 
 
-
-![image](https://github.com/user-attachments/assets/8c1527b3-468d-47cf-9729-c4e402cfb2dc)
-
+![image](![image](https://github.com/l1sok/ALU_BOARD/tree/main/%5SM%5D/SM))
 
 
-
-
-![image](https://github.com/user-attachments/assets/30cb5ec6-90a8-4f7b-95de-2e1b513575e5)
-
-
-
-
-
-![image](https://github.com/user-attachments/assets/b7d1fb48-8379-4cf1-9dd6-b110fe1ded05)
-
+![image](https://github.com/l1sok/ALU_BOARD/tree/main/%5BALU%5D/ALU)
 
