@@ -26,13 +26,13 @@
 При разработке эскиза макета АЛУ был разделён на три уровня: уровень [вентилей](https://github.com/l1sok/ALU_BOARD/tree/main/%5BGATE%5D); уровень [сумматоров](https://github.com/l1sok/ALU_BOARD/tree/main/%5BSM%5D) – связующий для вентилей; уровень [АЛУ](https://github.com/l1sok/ALU_BOARD/tree/main/%5BALU%5D) –  общий связующий уровень для сумматоров.
 
 
-![image](https://github.com/l1sok/ALU_BOARD/tree/main/%5BGATE%5D/GATE)
+![image](https://github.com/l1sok/ALU_BOARD/tree/main/%5BGATE%5D/GATE.png)
 
-![image](https://github.com/l1sok/ALU_BOARD/tree/main/%5BGATE%5D/GATE_1)
-
-
-![image](![image](https://github.com/l1sok/ALU_BOARD/tree/main/%5SM%5D/SM))
+![image](https://github.com/l1sok/ALU_BOARD/tree/main/%5BGATE%5D/GATE_1.png)
 
 
-![image](https://github.com/l1sok/ALU_BOARD/tree/main/%5BALU%5D/ALU)
+![image](![image](https://github.com/l1sok/ALU_BOARD/tree/main/%5SM%5D/SM.png))
+
+
+![image](https://github.com/l1sok/ALU_BOARD/tree/main/%5BALU%5D/ALU.png)
 
