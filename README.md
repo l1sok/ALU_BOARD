@@ -17,7 +17,7 @@
 
 
 
- * Заключительным этапом стала отладка разработанного устройства на учебном стенде Terasic DE1 (на базе на базе Altera Cyclone II EP2C20F484C7N). Для этого были интегрированы модули взаимодействия с утройствами [ввода](https://github.com/l1sok/ALU_BOARD/blob/main/%5BLABS%5D/InputModule.v) и [вывода](https://github.com/l1sok/ALU_BOARD/blob/main/%5BLABS%5D/OutputModule.v). В ходе отладки были разработаны и протестированы различные [сценарии работы](https://github.com/l1sok/ALU_BOARD/blob/main/%5BLABS%5D/mem.txt), проверены корректность выполнения команд и возможные ошибки. 
+ * Заключительным этапом стала отладка разработанного устройства на учебном стенде Terasic DE1 (на базе Altera Cyclone II EP2C20F484C7N). Для этого были интегрированы модули взаимодействия с утройствами [ввода](https://github.com/l1sok/ALU_BOARD/blob/main/%5BLABS%5D/InputModule.v) и [вывода](https://github.com/l1sok/ALU_BOARD/blob/main/%5BLABS%5D/OutputModule.v). В ходе отладки были разработаны и протестированы различные [сценарии работы](https://github.com/l1sok/ALU_BOARD/blob/main/%5BLABS%5D/mem.txt), проверены корректность выполнения команд и возможные ошибки. 
 
 
 ---
@@ -37,3 +37,5 @@
 
 ![image](https://github.com/l1sok/ALU_BOARD/blob/main/%5BALU%5D/ALU_pic.png)
 
+---
+_Для корректного отображения схем .SchDot необходимо установить шрифт [GOST_A](https://github.com/l1sok/MCU_PLD/blob/main/GOST_A%20.TTF)_
